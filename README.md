@@ -17,5 +17,5 @@ Reproduction repo for https://github.com/tokio-rs/tokio/issues/5076
 ## Run benchmark
 
 ```sh
-wrk -t16 -c1024 -d10s --latency http://localhost:8080/
+wrk -t16 -c1024 -d10s --latency http://localhost:3000/
 ```
