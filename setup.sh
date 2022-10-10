@@ -2,7 +2,7 @@
 
 # apt packages
 sudo apt-get update
-sudo apt-get install -y htop wrk linux-tools-common linux-tools-generic linux-tools-$(uname -r)
+sudo apt-get install -y build-essential htop wrk linux-tools-common linux-tools-generic linux-tools-$(uname -r)
 
 # configure kernel
 echo -1 | sudo tee /proc/sys/kernel/perf_event_paranoid
